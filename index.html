@@ -1,0 +1,810 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Vijay Sriram S | ECE • VLSI • Embedded Systems</title>
+
+    <meta
+        name="description"
+        content="Vijay Sriram S — Electronics and Communication Engineering student focused on VLSI, processor architecture, digital hardware, embedded systems and robotics."
+    >
+
+    <meta name="author" content="Vijay Sriram S">
+    <meta name="theme-color" content="#0b0d10">
+
+    <meta property="og:title" content="Vijay Sriram S | ECE • VLSI • Embedded Systems">
+    <meta
+        property="og:description"
+        content="Portfolio of Vijay Sriram S, an Electronics and Communication Engineering student focused on VLSI, processor architecture and embedded systems."
+    >
+    <meta property="og:type" content="website">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap"
+        rel="stylesheet"
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="site-noise" aria-hidden="true"></div>
+
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container nav-container">
+
+            <a href="#home" class="brand" aria-label="Vijay Sriram S home">
+                <span class="brand-mark">VS</span>
+                <span class="brand-name">Vijay Sriram S</span>
+            </a>
+
+            <nav class="desktop-nav" aria-label="Primary navigation">
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#training">Training</a>
+                <a href="#education">Education</a>
+                <a href="#achievements">Achievements</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-actions">
+                <button
+                    class="theme-toggle"
+                    id="themeToggle"
+                    type="button"
+                    aria-label="Switch theme"
+                    title="Switch theme"
+                >
+                    <span id="themeIcon">☼</span>
+                </button>
+
+                <button
+                    class="menu-toggle"
+                    id="menuToggle"
+                    type="button"
+                    aria-label="Open navigation menu"
+                    aria-expanded="false"
+                    aria-controls="mobileNav"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            </div>
+
+        </div>
+
+        <nav class="mobile-nav" id="mobileNav" aria-label="Mobile navigation">
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
+            <a href="#training">Training</a>
+            <a href="#education">Education</a>
+            <a href="#achievements">Achievements</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main id="home">
+
+        <!-- Hero -->
+        <section class="hero section">
+            <div class="container hero-grid">
+
+                <div class="hero-copy reveal">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        ECE STUDENT · HARDWARE & SYSTEMS
+                    </div>
+
+                    <h1>
+                        Building toward
+                        <span class="accent-text">intelligent hardware.</span>
+                    </h1>
+
+                    <p class="hero-intro">
+                        I'm <strong>Vijay Sriram S</strong>, a third-year Electronics
+                        and Communication Engineering student exploring
+                        <strong>VLSI design, processor architecture, embedded systems,
+                        digital electronics, and robotics.</strong>
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#projects" class="button button-primary">
+                            Explore Projects
+                            <span>↗</span>
+                        </a>
+
+                        <a href="#contact" class="button button-secondary">
+                            Get in Touch
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span>B.Tech ECE</span>
+                        <span class="meta-divider"></span>
+                        <span>Expected 2028</span>
+                        <span class="meta-divider"></span>
+                        <span>CGPA 9.04 / 10</span>
+                    </div>
+                </div>
+
+                <div class="hero-visual reveal" aria-hidden="true">
+
+                    <div class="tech-panel">
+
+                        <div class="panel-top">
+                            <span>ENGINEERING_FOCUS</span>
+                            <span>01 / 04</span>
+                        </div>
+
+                        <div class="circuit-board">
+
+                            <div class="circuit-line line-one"></div>
+                            <div class="circuit-line line-two"></div>
+                            <div class="circuit-line line-three"></div>
+                            <div class="circuit-line line-four"></div>
+
+                            <div class="node node-a"></div>
+                            <div class="node node-b"></div>
+                            <div class="node node-c"></div>
+                            <div class="node node-d"></div>
+
+                            <div class="chip">
+                                <div class="chip-label">VS</div>
+                                <div class="chip-pins"></div>
+                            </div>
+
+                            <div class="floating-label label-a">RTL / HDL</div>
+                            <div class="floating-label label-b">MCU</div>
+                            <div class="floating-label label-c">CPU ARCH</div>
+                            <div class="floating-label label-d">DIGITAL</div>
+                        </div>
+
+                        <div class="panel-bottom">
+                            <span>VLSI</span>
+                            <span>EMBEDDED</span>
+                            <span>ROBOTICS</span>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="scroll-indicator">
+                <span>SCROLL TO EXPLORE</span>
+                <span class="scroll-line"></span>
+            </div>
+        </section>
+
+        <!-- About -->
+        <section class="section section-light" id="about">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">01</span>
+                    <div>
+                        <span class="eyebrow">PROFILE</span>
+                        <h2>Engineering with a hardware-first mindset.</h2>
+                    </div>
+                </div>
+
+                <div class="about-grid">
+
+                    <div class="about-lead reveal">
+                        <p class="large-copy">
+                            My interests sit at the intersection of
+                            <span>digital hardware, computation and physical systems.</span>
+                        </p>
+                    </div>
+
+                    <div class="about-body reveal">
+                        <p>
+                            I am pursuing a B.Tech in Electronics and Communication
+                            Engineering at SRM Institute of Science and Technology.
+                            My current technical focus spans VLSI and digital design,
+                            processor architecture, embedded systems and robotics.
+                        </p>
+
+                        <p>
+                            I enjoy working with HDL-based digital design,
+                            microcontrollers, sensor interfaces and electronics
+                            hardware, with a particular interest in building
+                            practical and efficient engineering systems.
+                        </p>
+
+                        <div class="focus-list">
+                            <div>
+                                <span class="focus-index">01</span>
+                                <strong>VLSI & Digital Hardware</strong>
+                            </div>
+
+                            <div>
+                                <span class="focus-index">02</span>
+                                <strong>Processor Architecture</strong>
+                            </div>
+
+                            <div>
+                                <span class="focus-index">03</span>
+                                <strong>Embedded Systems & Robotics</strong>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="section" id="skills">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">02</span>
+                    <div>
+                        <span class="eyebrow">TECHNICAL STACK</span>
+                        <h2>Tools for turning concepts into systems.</h2>
+                    </div>
+                </div>
+
+                <div class="skills-grid">
+
+                    <article class="skill-group reveal">
+                        <span class="skill-index">01</span>
+                        <h3>VLSI & Digital Design</h3>
+                        <p>
+                            Digital hardware design and HDL fundamentals.
+                        </p>
+
+                        <div class="tags">
+                            <span>VLSI Design</span>
+                            <span>Verilog HDL</span>
+                            <span>VHDL</span>
+                            <span>Digital Circuit Design</span>
+                            <span>RTL Design Fundamentals</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-group reveal">
+                        <span class="skill-index">02</span>
+                        <h3>Processor Design</h3>
+                        <p>
+                            Foundations in processor and computer architecture.
+                        </p>
+
+                        <div class="tags">
+                            <span>Processor Architecture</span>
+                            <span>Digital Hardware Design</span>
+                            <span>Computer Architecture Basics</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-group reveal">
+                        <span class="skill-index">03</span>
+                        <h3>Embedded & Robotics</h3>
+                        <p>
+                            Hardware-software integration and control systems.
+                        </p>
+
+                        <div class="tags">
+                            <span>Embedded Systems</span>
+                            <span>Microcontrollers</span>
+                            <span>ESP32</span>
+                            <span>Arduino</span>
+                            <span>Sensor Interfacing</span>
+                            <span>Actuator Control</span>
+                            <span>Motor Control</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-group reveal">
+                        <span class="skill-index">04</span>
+                        <h3>Programming</h3>
+                        <p>
+                            Low-level programming for embedded and electronics work.
+                        </p>
+
+                        <div class="tags">
+                            <span>C</span>
+                            <span>Embedded C</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-group reveal">
+                        <span class="skill-index">05</span>
+                        <h3>Electronics</h3>
+                        <p>
+                            Core analog, digital and control concepts.
+                        </p>
+
+                        <div class="tags">
+                            <span>Electronics Hardware Design</span>
+                            <span>Digital Electronics</span>
+                            <span>Analog Electronics</span>
+                            <span>PWM</span>
+                            <span>Motor Control</span>
+                        </div>
+                    </article>
+
+                    <article class="skill-group reveal">
+                        <span class="skill-index">06</span>
+                        <h3>Tools</h3>
+                        <p>
+                            Software used for hardware development and analysis.
+                        </p>
+
+                        <div class="tags">
+                            <span>Arduino IDE</span>
+                            <span>CST Studio Suite</span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects -->
+        <section class="section section-light" id="projects">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">03</span>
+                    <div>
+                        <span class="eyebrow">SELECTED WORK</span>
+                        <h2>Projects that connect hardware with real-world problems.</h2>
+                    </div>
+                </div>
+
+                <div class="projects-list">
+
+                    <article class="project-card project-featured reveal">
+                        <div class="project-number">01</div>
+
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>EMBEDDED / IoT</span>
+                            </div>
+
+                            <h3>ALERTIX</h3>
+
+                            <p class="project-subtitle">
+                                Smart Fatigue Detection System
+                            </p>
+
+                            <p class="project-description">
+                                A driver fatigue monitoring system using facial
+                                landmark analysis to identify eye closure, yawning,
+                                and distraction, with embedded hardware integrated
+                                for real-time alerts and automated response.
+                            </p>
+
+                            <div class="project-flow">
+                                <span>FACIAL ANALYSIS</span>
+                                <span>→</span>
+                                <span>EMBEDDED HARDWARE</span>
+                                <span>→</span>
+                                <span>REAL-TIME ALERT</span>
+                            </div>
+                        </div>
+
+                        <div class="project-visual">
+                            <div class="radar">
+                                <div class="radar-ring ring-1"></div>
+                                <div class="radar-ring ring-2"></div>
+                                <div class="radar-ring ring-3"></div>
+                                <div class="radar-sweep"></div>
+                                <div class="radar-point"></div>
+                            </div>
+
+                            <span class="visual-label">MONITORING</span>
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">02</div>
+
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>EMBEDDED SYSTEMS</span>
+                            </div>
+
+                            <h3>Alcohol Intrusion Detection System</h3>
+
+                            <p class="project-description">
+                                An embedded system designed to detect alcohol
+                                presence from sensor input and generate an alert
+                                based on the detected condition.
+                            </p>
+
+                            <div class="tags project-tags">
+                                <span>Embedded Systems</span>
+                                <span>Sensor Input</span>
+                                <span>Alert System</span>
+                            </div>
+                        </div>
+
+                        <div class="project-side-mark">
+                            SENSOR<br>
+                            <span>→</span><br>
+                            ALERT
+                        </div>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">03</div>
+
+                        <div class="project-content">
+                            <div class="project-topline">
+                                <span>ELECTRONICS</span>
+                            </div>
+
+                            <h3>Analog Pulse Width Modulator</h3>
+
+                            <p class="project-subtitle">
+                                Motor Speed Control
+                            </p>
+
+                            <p class="project-description">
+                                An analog PWM circuit designed for DC motor speed
+                                control by varying the duty cycle of the output
+                                signal.
+                            </p>
+
+                            <div class="tags project-tags">
+                                <span>Analog Electronics</span>
+                                <span>PWM</span>
+                                <span>DC Motor</span>
+                                <span>Motor Control</span>
+                            </div>
+                        </div>
+
+                        <div class="wave-visual" aria-hidden="true">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Training -->
+        <section class="section" id="training">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">04</span>
+                    <div>
+                        <span class="eyebrow">TRAINING & CERTIFICATIONS</span>
+                        <h2>Learning beyond the classroom.</h2>
+                    </div>
+                </div>
+
+                <div class="training-list">
+
+                    <article class="training-item reveal">
+                        <span class="training-year">01</span>
+
+                        <div>
+                            <span class="training-type">CHIP DESIGN</span>
+                            <h3>Chip Design Training</h3>
+                            <p>
+                                3-day training program organized by Object Automation
+                                System Solutions Pvt. Ltd. in association with
+                                C-DAC Trivandrum.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="training-item reveal">
+                        <span class="training-year">02</span>
+
+                        <div>
+                            <span class="training-type">INDUSTRY CONNECT</span>
+                            <h3>Exploring Frequency Selective Surfaces Using CST Studio Suite</h3>
+                            <p>
+                                Five-day Industry Connect Student Training Program
+                                at SRM Institute of Science and Technology.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="training-item reveal">
+                        <span class="training-year">03</span>
+
+                        <div>
+                            <span class="training-type">MICRO-CREDENTIAL</span>
+                            <h3>IoT Design Sprint for Smart and Sustainable Systems</h3>
+                            <p>
+                                Micro-credential course completed at SRM Institute
+                                of Science and Technology.
+                            </p>
+                        </div>
+                    </article>
+
+                    <article class="training-item reveal">
+                        <span class="training-year">04</span>
+
+                        <div>
+                            <span class="training-type">HANDS-ON TRAINING</span>
+                            <h3>Industrial Practical Training in PIC Microcontroller Programming</h3>
+                            <p>
+                                Hands-on training covering I/O ports, timers, ADC,
+                                sensors, and 7-segment interfacing.
+                            </p>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Education -->
+        <section class="section section-light" id="education">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">05</span>
+                    <div>
+                        <span class="eyebrow">EDUCATION</span>
+                        <h2>Academic foundation.</h2>
+                    </div>
+                </div>
+
+                <div class="education-layout">
+
+                    <article class="education-main reveal">
+                        <div class="edu-top">
+                            <span class="edu-status">CURRENT · EXPECTED 2028</span>
+                            <span class="edu-score">9.04<span>/10</span></span>
+                        </div>
+
+                        <h3>B.Tech in Electronics and Communication Engineering</h3>
+
+                        <p class="institution">
+                            SRM Institute of Science and Technology
+                        </p>
+
+                        <p class="edu-detail">
+                            Third Year · CGPA through 5th Semester
+                        </p>
+                    </article>
+
+                    <div class="education-secondary">
+
+                        <article class="education-small reveal">
+                            <span>2024</span>
+                            <h3>Higher Secondary Education</h3>
+                            <p>State Board · 82.5%</p>
+                        </article>
+
+                        <article class="education-small reveal">
+                            <span>2022</span>
+                            <h3>Secondary Education</h3>
+                            <p>
+                                State Board · 90.8% · Centum in Mathematics
+                            </p>
+                        </article>
+
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Interests -->
+        <section class="section interests-section">
+            <div class="container">
+
+                <div class="interest-banner reveal">
+                    <div>
+                        <span class="eyebrow">AREAS OF TECHNICAL INTEREST</span>
+                        <h2>Where I'm heading next.</h2>
+                    </div>
+
+                    <div class="interest-grid">
+                        <span>Processor Architecture & Design</span>
+                        <span>VLSI & Digital Hardware Design</span>
+                        <span>Embedded Systems & Robotics</span>
+                        <span>Digital Electronics & Microcontroller Systems</span>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Achievements -->
+        <section class="section section-light" id="achievements">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">06</span>
+                    <div>
+                        <span class="eyebrow">HACKATHONS & COMPETITIONS</span>
+                        <h2>Building, competing, learning.</h2>
+                    </div>
+                </div>
+
+                <div class="hackathon-grid">
+
+                    <article class="hackathon-card reveal">
+                        <span class="hackathon-date">AUG 2026</span>
+                        <span class="hackathon-label">NATIONAL LEVEL · HYBRID</span>
+
+                        <h3>AASHAV 2026 – The Hope</h3>
+
+                        <p>
+                            SIMATS Engineering, Chennai
+                        </p>
+
+                        <strong>Participant</strong>
+                    </article>
+
+                    <article class="hackathon-card reveal">
+                        <span class="hackathon-date">MAR 2026</span>
+                        <span class="hackathon-label">NATIONAL LEVEL</span>
+
+                        <h3>INNOVATE X’26</h3>
+
+                        <p>
+                            SIMATS Engineering, Chennai
+                        </p>
+
+                        <strong>Participant</strong>
+                    </article>
+
+                    <article class="hackathon-card reveal">
+                        <span class="hackathon-date">SEP 2025</span>
+                        <span class="hackathon-label">24-HOUR · IoT & AUTOMATION</span>
+
+                        <h3>YUVA 24-Hour Hackathon</h3>
+
+                        <p>
+                            SRM Institute of Science and Technology,
+                            Tiruchirappalli
+                        </p>
+
+                        <strong>Participant</strong>
+                    </article>
+
+                </div>
+            </div>
+        </section>
+
+        <!-- Competencies -->
+        <section class="section competency-section">
+            <div class="container">
+
+                <div class="section-heading reveal">
+                    <span class="section-number">07</span>
+                    <div>
+                        <span class="eyebrow">CORE COMPETENCIES</span>
+                        <h2>How I approach engineering.</h2>
+                    </div>
+                </div>
+
+                <div class="competency-list reveal">
+                    <span>Problem Solving</span>
+                    <span>Critical Thinking</span>
+                    <span>Communication</span>
+                    <span>Team Leadership</span>
+                    <span>Time Management</span>
+                    <span>Technical Learning</span>
+                    <span>Hardware Debugging</span>
+                    <span>Collaborative Project Development</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Contact -->
+        <section class="section contact-section" id="contact">
+            <div class="container">
+
+                <div class="contact-box reveal">
+
+                    <div class="contact-copy">
+                        <span class="eyebrow">LET'S CONNECT</span>
+
+                        <h2>
+                            Interested in hardware,
+                            systems and what comes next?
+                        </h2>
+
+                        <p>
+                            I'm open to connecting around VLSI, processor design,
+                            embedded systems, robotics and engineering projects.
+                        </p>
+                    </div>
+
+                    <div class="contact-actions">
+
+                        <a
+                            class="contact-link primary-contact"
+                            href="mailto:vijaysriramsankar@gmail.com"
+                        >
+                            <span>Email</span>
+                            <strong>vijaysriramsankar@gmail.com</strong>
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            class="contact-link"
+                            href="https://www.linkedin.com/in/vijay-sriram-s-ece"
+                            target="_blank"
+                            rel="noopener noreferrer"
+                        >
+                            <span>LinkedIn</span>
+                            <strong>vijay-sriram-s-ece</strong>
+                            <span>↗</span>
+                        </a>
+
+                        <a
+                            class="contact-link"
+                            href="tel:+918825815765"
+                        >
+                            <span>Phone</span>
+                            <strong>+91 88258 15765</strong>
+                            <span>↗</span>
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-inner">
+
+            <div>
+                <span class="footer-name">Vijay Sriram S</span>
+                <p>
+                    Electronics & Communication Engineering ·
+                    VLSI · Embedded Systems
+                </p>
+            </div>
+
+            <div class="footer-right">
+                 <p>Designed & Developed by
+          <strong>
+            <a href="https://sreerampalani.vercel.app/" target="_blank" class="developer-link">Sreeram Palani</a>
+          </strong>
+        </p>
+                <span>© <span id="year"></span> Vijay Sriram S</span>
+            </div>
+
+        </div>
+    </footer>
+
+    <button
+        class="back-to-top"
+        id="backToTop"
+        type="button"
+        aria-label="Back to top"
+    >
+        ↑
+    </button>
+
+    <script src="script.js"></script>
+</body>
+</html>
